@@ -1,0 +1,51 @@
+{
+  "name": "collection-decorator",
+  "version": "0.1.0",
+  "description": "Decorator for adding to collection",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest --verbose",
+    "build": "rm -rf ./dist && tsc --p tsconfig.build.json",
+    "report": "cat ./coverage/lcov.info | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamolegga/collection-decorator.git"
+  },
+  "keywords": [
+    "typescript",
+    "decorator"
+  ],
+  "author": "Oleg Repin <iamolegga@gmail.com> (http://github.com/iamolegga)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamolegga/collection-decorator/issues"
+  },
+  "homepage": "https://github.com/iamolegga/collection-decorator#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.12",
+    "coveralls": "^3.0.6",
+    "jest": "^24.9.0",
+    "prettier": "^1.18.2",
+    "ts-jest": "^24.1.0",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.3"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "ts"
+    ],
+    "testRegex": ".spec.ts$",
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest"
+    },
+    "collectCoverage": true,
+    "coverageDirectory": "../coverage",
+    "collectCoverageFrom": [
+      "src/**/*.ts"
+    ],
+    "testEnvironment": "node"
+  }
+}

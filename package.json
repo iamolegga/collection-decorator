@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Decorator for adding to collection",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "jest --verbose",
     "build": "rm -rf ./dist && tsc --p tsconfig.build.json",
@@ -25,9 +26,11 @@
   "devDependencies": {
     "@types/jest": "^24.0.18",
     "@types/node": "^12.7.12",
+    "@types/rimraf": "^2.0.2",
     "coveralls": "^3.0.6",
     "jest": "^24.9.0",
     "prettier": "^1.18.2",
+    "rimraf": "^3.0.0",
     "ts-jest": "^24.1.0",
     "tslint": "^5.20.0",
     "typescript": "^3.6.3"

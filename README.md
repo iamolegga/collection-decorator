@@ -2,6 +2,7 @@
 
 Decorator for adding to collection
 
+[![npm](https://img.shields.io/npm/v/collection-decorator)](https://www.npmjs.com/package/collection-decorator)
 [![Build status](https://img.shields.io/travis/iamolegga/collection-decorator.svg)](https://travis-ci.org/iamolegga/collection-decorator)
 [![Coverage Status](https://coveralls.io/repos/github/iamolegga/collection-decorator/badge.svg?branch=master)](https://coveralls.io/github/iamolegga/collection-decorator?branch=master)
 ![David](https://img.shields.io/david/iamolegga/collection-decorator)

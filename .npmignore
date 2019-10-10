@@ -3,7 +3,6 @@ example/
 src/
 .prettierrc
 .travis.yml
-README.md
 tsconfig.build.json
 tsconfig.json
 tslint.json
